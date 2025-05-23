@@ -150,6 +150,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+/* 768px */
 @media screen and (min-width: 48rem) {
   .container {
     width: 70vw;
@@ -185,6 +186,7 @@ body {
   }
 }
 
+/* 1024px */
 @media screen and (min-width: 64rem) {
   #heading {
     font-size: 2.4375rem;
@@ -221,6 +223,7 @@ body {
   }
 }
 
+/* 1180px */
 @media screen and (min-width: 73.75rem) {
   body {
     flex-direction: row;
@@ -267,8 +270,8 @@ body {
   .show {
     width: fit-content;
     padding: 1.25rem 50px;
-    left: 70.5%;
-    bottom: 1.875rem;
+    left: 36.7rem;
+    bottom: 5rem;
     border-radius: 0.9375rem;
     scale: 0.8;
   }
@@ -304,7 +307,7 @@ body {
   }
 }
 
-/* Big laptop screen */
+/* 1280px */
 @media screen and (min-width: 80rem) {
   #heading {
     font-size: 1.6rem;
@@ -317,6 +320,7 @@ body {
   }
 }
 
+/* 1366px */
 @media screen and (min-width: 85.375rem) {
   #text-wrapper {
     padding: 0.625rem 1.875rem;
@@ -330,6 +334,7 @@ body {
   }
   .show {
     left: 75%;
+    bottom: 6rem
   }
 
   #avatar-wrapper {
@@ -343,6 +348,7 @@ body {
   }
 }
 
+/* 1440px */
 @media screen and (min-width: 90rem) {
   #heading {
     font-size: 1.8125rem;
