@@ -3,32 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <link rel="stylesheet" href="style.css" />
-
     <title>Frontend Mentor | Article preview component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div>
+    <main>
       <div class="container">
         <img src="images/drawers.jpg" alt="drawers.jpg" id="drawers" />
         <div id="text-wrapper">
@@ -49,29 +35,34 @@
                 id="avatar"
               />
             </div>
-            <div>
+            <div id="bottom-wrapper">
               <div>
                 <h2 id="user-name">Michelle Appleton</h2>
                 <p id="date">28 Jun 2020</p>
               </div>
+              <div class="social-media-icons-wrapper">
+                <p id="share">SHARE</p>
+                <img src="images/icon-facebook.svg" alt="facebook-icon" class="social-icon">
+                <img src="images/icon-twitter.svg" alt="twitter-icon" class="social-icon">
+                <img src="images/icon-pinterest.svg" alt="pinterest-icon" class="social-icon">
+              </div>
               <div id="share-icon-wrapper">
                 <img
-                  src="images/icon-share.svg"
-                  alt="share-icon"
-                  id="share-icon"
+                src="images/icon-share.svg"
+                alt="share-icon"
+                id="share-icon"
                 />
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="attribution">
+      <footer class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div>
-    </div>
+        >. Coded by <a href="https://mishaelenyi.netlify.app">Mishael Enyi</a>.
+      </footer>
+    </main>
   </body>
 </html>
