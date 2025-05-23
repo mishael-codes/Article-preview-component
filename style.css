@@ -46,13 +46,13 @@ body {
 #heading {
   color: var(--very-dark-grayish-blue);
   margin: 2.5rem 0 1.25rem;
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 700;
 }
 
 #paragraph {
   color: var(--desaturated-dark-blue);
-  font-size: 0.875px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 #share {
-  letter-spacing: 7px;
+  letter-spacing: 0.438rem;
   font-size: 0.875rem;
 }
 
@@ -163,23 +163,20 @@ body {
     font-size: 1.875rem;
   }
 
-  #paragraph {
-    font-size: 25px;
-  }
-
+  #paragraph,
   #user-name,
   #date {
-    font-size: 25px;
+    font-size: 1.563rem;
   }
 
   .show {
     padding: 2.5rem 2.5rem;
     border-radius: 0 0 0.9375rem 0.9375rem;
-    gap: 25px;
+    gap: 1.563rem;
   }
 
   #share {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .social-icon {
@@ -190,11 +187,11 @@ body {
 
 @media screen and (min-width: 64rem) {
   #heading {
-    font-size: 39px;
+    font-size: 2.4375rem;
   }
 
   #paragraph {
-    font-size: 33.4px;
+    font-size: 2.0875rem;
   }
 
   #user-name,
@@ -209,7 +206,7 @@ body {
   }
 
   #share {
-    font-size: 22px;
+    font-size: 1.375;
   }
 
   #avatar-wrapper {
@@ -280,15 +277,15 @@ body {
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
     left: 50%;
-    margin-left: -10px;
+    margin-left: -0.625rem;
     border-width: 0.9375rem;
     border-style: solid;
     border-color: var(--very-dark-grayish-blue) transparent transparent
       transparent;
   }
   #share {
-    letter-spacing: 7px;
-    font-size: 18px;
+    letter-spacing: 0.4375rem;
+    font-size: 1.125rem;
   }
 
   #share-icon-wrapper {
@@ -297,7 +294,7 @@ body {
   }
 
   #share-icon {
-    padding: 12px;
+    padding:  0.75rem;
     width: 100%;
     height: 100%;
   }
@@ -322,7 +319,7 @@ body {
 
 @media screen and (min-width: 85.375rem) {
   #text-wrapper {
-    padding: 10px 1.875rem;
+    padding: 0.625rem 1.875rem;
   }
 
   #heading {
@@ -348,10 +345,10 @@ body {
 
 @media screen and (min-width: 90rem) {
   #heading {
-    font-size: 29px;
+    font-size: 1.8125rem;
   }
   #paragraph {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .show {
     left: 76%;
